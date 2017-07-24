@@ -25,7 +25,7 @@ Calculate bounding box for [svg path data](https://developer.mozilla.org/en-US/d
 * [rel-svg-path](https://npmjs.org/abs-svg-path) - convert svg path to relative values
 * [normalize-svg-path](https://npmjs.org/normalize-svg-path) - make path consist of only bezier curve segments
 * [draw-svg-path](https://npmjs.org/draw-svg-path) - create canvas shape based on svg path data
-* [normalize-svg-coords](https://npmjs.org/normalize-svg-coords) - bring svg path coordinates to `0..1` range
+* [normalize-svg-coords](https://npmjs.org/normalize-svg-coords) - bring svg path coordinates to any linear range
 
 ## Similar
 
