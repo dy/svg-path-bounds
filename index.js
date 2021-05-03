@@ -4,7 +4,6 @@ var parse = require('parse-svg-path')
 var abs = require('abs-svg-path')
 var normalize = require('normalize-svg-path')
 var isSvgPath = require('is-svg-path')
-var assert = require('assert')
 
 module.exports = pathBounds
 
@@ -15,11 +14,11 @@ function pathBounds(path) {
 
   // svg path string
   if (typeof path === 'string') {
-    assert(isSvgPath(path), 'String is not an SVG path.')
+    if (!isSvgPath(path)) throw Error('String is not an SVG path.')
     path = parse(path)
   }
 
-  assert(Array.isArray(path), 'Argument should be a string or an array of path segments.')
+  if (!Array.isArray(path)) throw Error('Argument should be a string or an array of path segments.')
 
   path = abs(path)
   path = normalize(path)
