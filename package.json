@@ -1,6 +1,6 @@
 {
   "name": "svg-path-bounds",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get bounding box of an svg path data",
   "main": "index.js",
   "scripts": {
