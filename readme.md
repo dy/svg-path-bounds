@@ -1,4 +1,4 @@
-# svg-path-bounds [![Build Status](https://travis-ci.org/dfcreative/svg-path-bounds.svg?branch=master)](https://travis-ci.org/dfcreative/svg-path-bounds)
+# svg-path-bounds [![Build Status](https://travis-ci.org/dfcreative/svg-path-bounds.svg?branch=master)](https://travis-ci.org/dy/svg-path-bounds)
 
 Retrieve bounding box from svg path data.
 
