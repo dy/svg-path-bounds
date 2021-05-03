@@ -2,8 +2,6 @@
 
 Retrieve bounding box from svg path data.
 
-## Usage
-
 [![npm install svg-path-bounds](https://nodei.co/npm/svg-path-bounds.png?mini=true)](https://npmjs.org/package/svg-path-bounds/)
 
 ```js
@@ -11,8 +9,6 @@ const getBounds = require('svg-path-bounds')
 
 let [left, top, right, bottom] = getBounds('M0 0L10 10 20 0Z') // [0, 0, 20, 10]
 ```
-
-## API
 
 ### bounds = getBounds(path|segments)
 
@@ -34,4 +30,4 @@ Calculate bounding box for [svg path data](https://developer.mozilla.org/en-US/d
 
 ## License
 
-MIT © Dima Yv
+MIT © Dmitry Iv.
