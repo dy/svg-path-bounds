@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Get bounding box of an svg path data",
   "main": "index.js",
+  "types": "index.d.td",
   "scripts": {
     "test": "node test"
   },
