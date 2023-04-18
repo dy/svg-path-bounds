@@ -1,4 +1,4 @@
-# svg-path-bounds [![Build Status](https://travis-ci.org/dy/svg-path-bounds.svg?branch=master)](https://travis-ci.org/dy/svg-path-bounds)
+# svg-path-bounds [![test](https://github.com/dy/svg-path-bounds/actions/workflows/test.yml/badge.svg)](https://github.com/dy/svg-path-bounds/actions/workflows/test.yml)
 
 Retrieve bounding box from svg path data.
 
